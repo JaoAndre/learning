@@ -11,16 +11,3 @@ int main()
 
     return 0;
 }
-
-/*
-
-    ? "int *ptr = &b;"
-        * Aqui, criamos a variável 'ptr' que é um ponteiro para um inteiro (int *).
-        * Ele pega o endereço de memória da variável 'b' usando o operador de endereço (&).
-
-    ? "int c = a / *ptr;"
-        * Aqui, dividimos o valor de 'a' pelo valor de 'ptr'.
-        * Usamos o operador de desreferenciamento (*) para acessar o valor apontado pelo ponteiro.
-        * O resultado da divisão é armazenado na variável 'c'.
-
-*/
