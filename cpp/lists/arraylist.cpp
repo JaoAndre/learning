@@ -10,7 +10,7 @@ private:
     void grow()
     {
         int new_size = size * 2;
-        int *new_arr = new int[size];
+        int *new_arr = new int[new_size];
 
         for (int i = 0; i < size; i++)
         {
