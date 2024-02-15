@@ -1,6 +1,6 @@
 #include <iostream>
 
-void aumentar(int *x)
+void grow(int *x)
 {
     *x += 1;
 }
@@ -8,7 +8,7 @@ void aumentar(int *x)
 int main()
 {
     int a = 10;
-    aumentar(&a);
+    grow(&a);
 
     std::cout << "Aumentado: " << a;
 
